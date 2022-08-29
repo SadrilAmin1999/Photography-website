@@ -53,20 +53,14 @@
     font-size: 2.5rem;
   }
 
-  .nav-links,
-  .nav-socials {
-    display: none;
-  }
-
-  .nav-container {
-    justify-content: center;
-  }
-
   /*============================HEADER=====================*/
   header {
     background: none;
     padding-top: 5rem;
     height: fit-content;
+  }
+  .header-left h1 {
+    width: 95%;
   }
 
   .header-image-bg,
@@ -137,12 +131,24 @@
   }
 }
 @media screen and (max-width: 1068px) {
+  .nav-links {
+    display: flex;
+    gap: 3rem;
+  }
   .header-left h1 {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 978px) {
+  .nav-links,
+  .nav-socials {
+    display: none;
+  }
+
+  .nav-container {
+    justify-content: center;
+  }
   .header-image-lg,
   .about-image-lg,
   .gallery-image {
