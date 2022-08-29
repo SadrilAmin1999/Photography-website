@@ -2,9 +2,11 @@
   .header-frams {
     top: 85vh;
   }
+
   .header-fram {
     width: 15rem;
   }
+
   .header-frams:hover .header-fram:nth-child(2) {
     left: 15rem;
   }
@@ -15,12 +17,15 @@
   .header-frams {
     top: 90vh;
   }
+
   .header-fram {
     width: 13rem;
   }
+
   .header-frams:hover .header-fram:nth-child(2) {
     left: 13rem;
   }
+
   .gallery-images {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -31,9 +36,11 @@
     margin: 2rem 0;
     width: 75%;
   }
+
   .header-frams {
     top: 95vh;
   }
+
   .about-right {
     margin-left: 8rem;
   }
@@ -59,6 +66,7 @@
     padding-top: 5rem;
     height: fit-content;
   }
+
   .header-left h1 {
     width: 95%;
   }
@@ -130,11 +138,12 @@
     padding-left: 0;
   }
 }
+
 @media screen and (max-width: 1068px) {
   .nav-links {
-    display: flex;
     gap: 3rem;
   }
+
   .header-left h1 {
     width: 80%;
   }
@@ -149,6 +158,7 @@
   .nav-container {
     justify-content: center;
   }
+
   .header-image-lg,
   .about-image-lg,
   .gallery-image {
