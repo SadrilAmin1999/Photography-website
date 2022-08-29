@@ -136,6 +136,11 @@
     padding-left: 0;
   }
 }
+@media screen and (max-width: 1068px) {
+  .header-left h1 {
+    width: 80%;
+  }
+}
 
 @media screen and (max-width: 978px) {
   .header-image-lg,
